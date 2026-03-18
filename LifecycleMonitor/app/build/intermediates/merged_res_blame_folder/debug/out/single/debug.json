@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.lifecyclemonitor.app-merged_res-4:/layout_activity_base.xml.flat",
+        "source": "com.example.lifecyclemonitor.app-main-6:/layout/activity_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-merged_res-4:\\mipmap_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-main-6:\\mipmap\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-merged_res-4:\\layout_item_separator.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-main-6:\\layout\\item_separator.xml"
+    },
+    {
+        "merged": "com.example.lifecyclemonitor.app-merged_res-4:/layout_item_log.xml.flat",
+        "source": "com.example.lifecyclemonitor.app-main-6:/layout/item_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-merged_res-4:\\layout_activity_base.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-main-6:\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-merged_res-4:\\layout_item_log.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-main-6:\\layout\\item_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-merged_res-4:\\mipmap_ic_launcher.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-main-6:\\mipmap\\ic_launcher.xml"
+    }
+]

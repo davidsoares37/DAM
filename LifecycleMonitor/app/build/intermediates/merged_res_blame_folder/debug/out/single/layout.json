@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-mergeDebugResources-3:\\layout\\item_separator.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-main-6:\\layout\\item_separator.xml"
+    },
+    {
+        "merged": "com.example.lifecyclemonitor.app-mergeDebugResources-3:/layout/activity_base.xml",
+        "source": "com.example.lifecyclemonitor.app-main-6:/layout/activity_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-mergeDebugResources-3:\\layout\\activity_base.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-main-6:\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-mergeDebugResources-3:\\layout\\item_log.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.2\\com.example.lifecyclemonitor.app-main-6:\\layout\\item_log.xml"
+    },
+    {
+        "merged": "com.example.lifecyclemonitor.app-mergeDebugResources-3:/layout/item_log.xml",
+        "source": "com.example.lifecyclemonitor.app-main-6:/layout/item_log.xml"
+    }
+]

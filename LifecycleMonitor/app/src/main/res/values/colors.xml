@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Material 3 Premium Theme Colors -->
+    <color name="md_theme_light_primary">#0061A4</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#D1E4FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#001D36</color>
+    <color name="md_theme_light_background">#FDFBFF</color>
+    <color name="md_theme_light_onBackground">#1A1C1E</color>
+    <color name="md_theme_light_surface">#FDFBFF</color>
+    <color name="md_theme_light_onSurface">#1A1C1E</color>
+    
+    <!-- Activity Badges -->
+    <color name="activity_main_bg">#E1F5FE</color> <!-- Light Blue -->
+    <color name="activity_main_text">#01579B</color>
+    
+    <color name="activity_second_bg">#E8F5E9</color> <!-- Light Green -->
+    <color name="activity_second_text">#1B5E20</color>
+    
+    <color name="activity_third_bg">#F3E5F5</color> <!-- Light Purple -->
+    <color name="activity_third_text">#4A148C</color>
+
+    <!-- Lifecycle State Colors -->
+    <color name="state_create">#4CAF50</color> <!-- Green -->
+    <color name="state_start">#8BC34A</color> <!-- Light Green -->
+    <color name="state_resume">#2196F3</color> <!-- Blue -->
+    <color name="state_pause">#FFC107</color> <!-- Yellow -->
+    <color name="state_stop">#FF9800</color> <!-- Orange -->
+    <color name="state_destroy">#F44336</color> <!-- Red -->
+    <color name="state_restart">#9C27B0</color> <!-- Purple -->
+
+    <!-- Generic Log Items -->
+    <color name="separator_color">#9E9E9E</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_border">#E0E0E0</color>
+</resources>

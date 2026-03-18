@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_main_bg">#E1F5FE</color>
+    <color name="activity_main_text">#01579B</color>
+    <color name="activity_second_bg">#E8F5E9</color>
+    <color name="activity_second_text">#1B5E20</color>
+    <color name="activity_third_bg">#F3E5F5</color>
+    <color name="activity_third_text">#4A148C</color>
+    <color name="black">#FF000000</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_border">#E0E0E0</color>
+    <color name="md_theme_light_background">#FDFBFF</color>
+    <color name="md_theme_light_onBackground">#1A1C1E</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#001D36</color>
+    <color name="md_theme_light_onSurface">#1A1C1E</color>
+    <color name="md_theme_light_primary">#0061A4</color>
+    <color name="md_theme_light_primaryContainer">#D1E4FF</color>
+    <color name="md_theme_light_surface">#FDFBFF</color>
+    <color name="separator_color">#9E9E9E</color>
+    <color name="state_create">#4CAF50</color>
+    <color name="state_destroy">#F44336</color>
+    <color name="state_pause">#FFC107</color>
+    <color name="state_restart">#9C27B0</color>
+    <color name="state_resume">#2196F3</color>
+    <color name="state_start">#8BC34A</color>
+    <color name="state_stop">#FF9800</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_separator">Add Separator</string>
+    <string name="app_name">Lifecycle Monitor</string>
+    <string name="auto_scroll">Auto Scroll</string>
+    <string name="clear_logs">Clear Logs</string>
+    <string name="next_activity">Next Activity</string>
+    <style name="Theme.LifecycleMonitor" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="android:background">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+    </style>
+</resources>

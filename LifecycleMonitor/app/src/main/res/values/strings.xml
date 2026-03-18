@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lifecycle Monitor</string>
+    <string name="add_separator">Add Separator</string>
+    <string name="clear_logs">Clear Logs</string>
+    <string name="auto_scroll">Auto Scroll</string>
+    <string name="next_activity">Next Activity</string>
+</resources>

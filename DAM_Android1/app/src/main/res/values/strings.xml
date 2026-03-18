@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello World V1</string>
+    <string name="hello_string">Hello Android World!</string>
+    <string name="another_string">Another One</string>
+    <string name="button1">Test Button</string>
+    <string name="earthimage">just an image</string>
+</resources>

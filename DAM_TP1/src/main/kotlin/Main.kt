@@ -1,16 +1,48 @@
 package org.example
 
+import org.example.dam.exer_v1.DigitalBook
+import org.example.dam.exer_v1.Library
+import org.example.dam.exer_v1.PhysicalBook
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
-
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+    val library = Library("Central Library")
+    val digitalBook = DigitalBook(
+        "Kotlin in Action",
+        "Dmitry Jemerov",
+        2017,
+        5,
+        4.5,
+        "PDF"
+    )
+    val physicalBook = PhysicalBook(
+        "Clean Code",
+        "Robert C. Martin",
+        2008,
+        3,
+        650,
+        true
+    )
+    val classicBook = PhysicalBook(
+        "1984",
+        "George Orwell",
+        1949,
+        2,
+        400,
+        false
+    )
+    library.addBook(digitalBook)
+    library.addBook(physicalBook)
+    library.addBook(classicBook)
+    library.showBooks()
+    println("\n--- Borrowing Books ---")
+    library.borrowBook("Clean Code")
+    library.borrowBook("1984")
+    library.borrowBook("1984")
+    library.borrowBook("1984") // Should fail - no copies left
+    println("\n--- Returning Books ---")
+    library.returnBook("1984")
+    println("\n--- Search by Author ---")
+    library.searchByAuthor("George Orwell")
 }

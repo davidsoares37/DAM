@@ -5,7 +5,7 @@ class PhysicalBook(
     author: String,
     publicationYear: Int,
     availableCopies: Int,
-    var weight: Double,
+    var weight: Int,
     var hasHardover: Boolean = true,
 ) : Book(title, author, publicationYear, availableCopies)
 {

@@ -2,8 +2,8 @@ package org.example.dam.exer_v1
 
 open class Book(
     public var title: String,
-    private var author: String,
-    private var publicationYear: Int,
+    public var author: String,
+    var publicationYear: Int,
     var availableCopies: Int
 ) {
 
@@ -21,7 +21,7 @@ open class Book(
         else{return "Contemporary"}
     }
 
-    fun setAvailableCopies(copies: Int) {
+    fun updateAvailableCopies(copies: Int) {
         if (copies < 0) {
             println("Warning: cannot set a negative number of available copies")
             return
